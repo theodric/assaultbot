@@ -17,4 +17,4 @@ To use the script, pass it an argument pointing to a text file containing one wo
 ./assaultbot.py dictionary.txt
 ```
 
-There are a couple other things you can configure, such as tweet frequency, and tweet prefix and postfixes. Read the script comments for more info.
+There are a couple other things you can configure, such as tweet frequency, and tweet prefix/postfix. Read the script comments for more info.
