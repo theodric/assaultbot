@@ -11,4 +11,8 @@ pip install -r requirements.txt
 
 To use the script, pass it an argument pointing to a text file containing one word per line. A sample dictionary.txt file is included.
 
-The script is well-commented. Read for more info.
+```bash
+./assaultbot.py dictionary.txt
+```
+
+The script is well-commented, and there are a couple other things you can configure. Read the comments for more info.
