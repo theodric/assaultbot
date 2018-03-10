@@ -15,4 +15,4 @@ To use the script, pass it an argument pointing to a text file containing one wo
 ./assaultbot.py dictionary.txt
 ```
 
-The script is well-commented, and there are a couple other things you can configure. Read the comments for more info.
+The script is well-commented, and there are a couple other things you can configure, such as tweet frequency, and tweet prefix and postfixes. Read the comments for more info.
