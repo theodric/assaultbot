@@ -3,7 +3,9 @@ A Twitter bot that tweets words from a dictionary, with optional prefix and post
 
 Based on tweepy.
 
-You will need to edit the script and insert your Twitter API details. Also be sure to install the required libraries using the provided requirements file.
+You will need to edit the script and insert your Twitter API details, or it will not work! Fill out the form at https://apps.twitter.com/ and populate the generated details in the indicated locations within the script.
+
+Also be sure to install the required libraries using the provided requirements file.
 
 ```bash
 pip install -r requirements.txt
