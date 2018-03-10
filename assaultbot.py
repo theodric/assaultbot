@@ -35,8 +35,8 @@ if ACCESS_SECRET == 'unmodified':
 ##############################################################################
 ## CONFIGURABLE ITEMS
 ## Set prefix and postfix for twot words (used in for loop at bottom)
-prefix = "MILITARY-STYLE ASSAULT "
-postfix = ""
+prefix = "PREFIX"
+postfix = "POSTFIX"
 ## Set frequency of tweets posted, in SECONDS
 ## Don't set this too low, or you may get rate-limited, or even put in Twitter Jail!
 tweetFrequency = 5
