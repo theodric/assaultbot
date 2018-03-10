@@ -33,7 +33,7 @@ postfix = "POSTFIX"
 
 ## Set frequency of tweets posted, in SECONDS
 ## Don't set this too low, or you may get rate-limited, or even put in Twitter Jail!
-tweetFrequency = 5
+tweetFrequency = 3600
 
 ## Sanity check.
 if ACCESS_SECRET == 'unmodified':
