@@ -27,19 +27,21 @@ auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
 api = tweepy.API(auth)
 
+## Set prefix and postfix for twot words (used in for loop at bottom)
+prefix = "PREFIX"
+postfix = "POSTFIX"
+
+## Set frequency of tweets posted, in SECONDS
+## Don't set this too low, or you may get rate-limited, or even put in Twitter Jail!
+tweetFrequency = 5
+
 ## Sanity check.
 if ACCESS_SECRET == 'unmodified':
     print("\nYou must first edit the script and configure a few well-labeled variables before you can use it.\n")
     exit()
 
 ##############################################################################
-## CONFIGURABLE ITEMS
-## Set prefix and postfix for twot words (used in for loop at bottom)
-prefix = "PREFIX"
-postfix = "POSTFIX"
-## Set frequency of tweets posted, in SECONDS
-## Don't set this too low, or you may get rate-limited, or even put in Twitter Jail!
-tweetFrequency = 5
+## OK, let's roll.
 
 ## index.txt tracks our progress through the dictionary file.
 ## It should be stored on persistent media (so not in /tmp),
