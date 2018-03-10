@@ -369,7 +369,6 @@ big-rig
 bijou
 bike
 bikini
-bill
 billboard
 bin
 biology
@@ -465,8 +464,6 @@ bowtie
 box
 boxer
 boxspring
-boy
-boyfriend
 bra
 brace
 bracelet
@@ -1009,7 +1006,6 @@ craw
 crawdad
 crayfish
 crayon
-crazy
 cream
 creative
 creator
@@ -1157,6 +1153,7 @@ depressive
 depth
 deputy
 derby
+derp
 derrick
 description
 desert
@@ -1186,7 +1183,6 @@ diaphragm
 diarist
 diarrhea
 dibble
-dickey
 dictaphone
 diction
 dictionary
@@ -1297,7 +1293,6 @@ driving
 drizzle
 dromedary
 drop
-drug
 drum
 drummer
 drunk
@@ -1336,6 +1331,7 @@ earthworm
 ease
 easel
 east
+easter egg
 eat
 eave
 eavesdropper
@@ -1457,7 +1453,6 @@ excuse
 executor
 exercise
 exhaust
-ex-husband
 exile
 existence
 exit
@@ -1472,7 +1467,6 @@ extension
 extent
 external
 extreme
-ex-wife
 eye
 eyeball
 eyebrow
@@ -1507,14 +1501,10 @@ family
 fan
 fang
 fanlight
-fanny
 fanny-pack
 farm
 farmer
 fascia
-fat
-father
-father-in-law
 fatigues
 faucet
 fault
@@ -1532,8 +1522,6 @@ feedback
 feel
 feeling
 feet
-felony
-female
 fen
 fence
 fencing
@@ -1749,8 +1737,6 @@ gigantism
 ginseng
 giraffe
 girdle
-girl
-girlfriend
 git
 give
 glad
@@ -1770,9 +1756,9 @@ go
 goal
 goat
 gobbler
-god
 godmother
 goggles
+goiter
 go-kart
 gold
 goldfish
@@ -1800,11 +1786,8 @@ grain
 gram
 grammar
 grand
-granddaughter
-grandfather
-grandmom
-grandmother
-grandson
+grandma
+grandpa
 granny
 grape
 grapefruit
@@ -1817,8 +1800,6 @@ gratitude
 gray
 grease
 great
-great-grandfather
-great-grandmother
 greek
 green
 greenhouse
@@ -1853,19 +1834,17 @@ guy
 gym
 gymnast
 gymnastics
-gynaecology
 gyro
 habit
 hacienda
 hacker
 hacksaw
 hackwork
+haddock
 hail
 hair
 haircut
 half
-half-brother
-half-sister
 halibut
 hall
 hallway
@@ -1969,12 +1948,7 @@ hole
 holiday
 home
 homework
-homogenate
-homonym
-honesty
-honey
 honeybee
-honoree
 hood
 hoof
 hook
@@ -2017,32 +1991,26 @@ hurdler
 hurricane
 hurry
 hurt
-husband
 hut
 hutch
 hyacinth
-hybridisation
 hydrant
 hydraulics
 hydrofoil
 hydrogen
 hyena
-hygienic
 hyphenation
 hypochondria
 hypothermia
 ice
 icebreaker
-icecream
 ice-cream
 icicle
 icon
 idea
 ideal
-if
 igloo
 ikebana
-illegal
 image
 imagination
 impact
@@ -2082,7 +2050,6 @@ in-joke
 injury
 injustice
 ink
-in-laws
 inlay
 inn
 innervation
@@ -2143,9 +2110,7 @@ jaguar
 jail
 jailhouse
 jam
-james
 jar
-jasmine
 jaw
 jealousy
 jeans
@@ -2160,7 +2125,6 @@ jiffy
 job
 jockey
 jodhpurs
-joey
 jogging
 join
 joint
@@ -2261,7 +2225,6 @@ laparoscope
 lapdog
 laptop
 larch
-larder
 lark
 laryngitis
 lasagna
@@ -2592,7 +2555,6 @@ morning
 morsel
 mortgage
 mortise
-mosque
 mosquito
 most
 motel
@@ -3121,7 +3083,6 @@ pressurisation
 price
 pride
 priest
-priesthood
 primary
 primate
 prince
@@ -3149,7 +3110,6 @@ profession
 professional
 professor
 profile
-profit
 program
 progress
 project
@@ -3238,7 +3198,6 @@ radiosonde
 radish
 raffle
 raft
-rag
 rage
 rail
 railway
@@ -3378,7 +3337,7 @@ riddle
 ride
 rider
 ridge
-rifle
+rifle!
 right
 rim
 ring
@@ -3765,7 +3724,6 @@ soy
 soybean
 space
 spacing
-spade
 spaghetti
 spandex
 spank
@@ -4032,7 +3990,6 @@ tanker
 tankful
 tank-top
 tap
-tard
 target
 task
 tassel
@@ -4200,9 +4157,7 @@ train
 trainer
 training
 tram
-tramp
 transaction
-transition
 translation
 transmission
 transom
@@ -4425,7 +4380,7 @@ wax
 way
 weakness
 wealth
-weapon
+weapon!
 wear
 weasel
 weather
@@ -4459,18 +4414,12 @@ whirlwind
 whisker
 whiskey
 whistle
-white
-whole
 wholesale
 wholesaler
-whorl
-width
-wife
 wilderness
 wildlife
 will
 willow
-win
 wind
 windage
 wind-chime
