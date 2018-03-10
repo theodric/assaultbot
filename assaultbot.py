@@ -83,13 +83,12 @@ for line in words:
     
     ## Print the word at the current index, make it UPPER CASE, and chomp() the trailing newline off of it.
     ## Remove the .upper method if that's not what you want
-    #api.update_status(prefix + str.upper(words[index].rstrip("\r\n")) + postfix)
+    api.update_status(prefix + str.upper(words[index].rstrip("\r\n")) + postfix)
     print("\n" + prefix + str.upper(words[index].rstrip("\r\n")) + postfix) 
 
     ## Increment the index value, and then write it out to disk so we keep state through restarts.
     index = index + 1
     indexFile = open(indexDOTtxt, 'w')
-    #print("Now setting index.txt to " + str(index))
     indexFile.write(str(index))
     indexFile.close()
     print("\nNext twot word will be " + str.upper(words[index]))
@@ -101,3 +100,4 @@ for line in words:
         sys.stdout.write(str((i - 1))+' ')
         sys.stdout.flush()
     #time.sleep(tweetFrequency)
+
