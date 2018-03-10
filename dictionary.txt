@@ -199,6 +199,7 @@ astrologer
 astrology
 astronomy
 atelier
+atheist
 athlete
 athletics
 atmosphere
@@ -1179,9 +1180,11 @@ devil
 dew
 dhow
 diadem
+diagram
 diamond
 diaphragm
 diarist
+diarrhea
 dibble
 dickey
 dictaphone
@@ -1854,6 +1857,7 @@ gynaecology
 gyro
 habit
 hacienda
+hacker
 hacksaw
 hackwork
 hail
@@ -3558,7 +3562,6 @@ set
 setting
 settler
 sewer
-sex
 shack
 shade
 shadow
@@ -3585,6 +3588,7 @@ sheet
 shelf
 shell
 shelter
+sherpa
 sherry
 shield
 shift
@@ -3594,6 +3598,11 @@ shingle
 ship
 shirt
 shirtdress
+shit
+shithead
+shits
+shitter
+shitting
 shoat
 shock
 shoe
