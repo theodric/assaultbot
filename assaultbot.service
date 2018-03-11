@@ -4,7 +4,7 @@ After=multi-user.target
 
 [Service]
 Type=idle
-ExecStart=/usr/bin/python3 /usr/src/assaultbot/priv-assaultbot.py /usr/src/assaultbot/nounlist.txt > /var/log/assaultbot.log 2>&1
+ExecStart=/usr/bin/python3 /usr/src/assaultbot/assaultbot.py /usr/src/assaultbot/dictionary.txt > /var/log/assaultbot.log 2>&1
 
 [Install]
 WantedBy=multi-user.target
