@@ -8,7 +8,6 @@ import tweepy
 import time
 import sys
 from pathlib import Path
-from wordfilter import Wordfilter
 
 print("\nUsage: " + str(sys.argv[0]) + " <dictionary file>\n")
 
@@ -29,8 +28,8 @@ auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
 api = tweepy.API(auth)
 
 ## Set prefix and postfix for twot words (used in for loop at bottom)
-prefix = ""
-postfix = ""
+prefix = "PREFIX"
+postfix = "POSTFIX"
 
 ## Set frequency of tweets posted, in SECONDS
 ## Don't set this too low, or you may get rate-limited, or even put in Twitter Jail!
@@ -79,37 +78,28 @@ wordFile = open(argFile, 'r')
 words = wordFile.readlines()
 wordFile.close()
 
-## Setting up the wordfilter. This is used to help us avoid auto-tweeting words that are not nice.
-wordfilter = Wordfilter()
-
 ##############################################################################
 ## Here we go.
 ## For each line in the words file, until we run out of lines, do some things:
 for line in words:
     
-    ## We check to see if the next word in queue is caught by Wordfilter...
-    if wordfilter.blacklisted(str.upper(words[index].rstrip("\r\n"))):
-        print("Yikes, " + str.upper(words[index].rstrip("\r\n")) + " might be problematic.\n We'll skip that one.")
-        index = index + 1
-    else: ## ...and if not, we continue on to tweet it.
-        ## Print the word at the current index, make it UPPER CASE, and chomp() the trailing newline off of it.
-        ## Remove the .upper method if that's not what you want
-        api.update_status(prefix + str.upper(words[index].rstrip("\r\n")) + postfix)
-        print("\n" + prefix + str.upper(words[index].rstrip("\r\n")) + postfix) 
+    ## Print the word at the current index, make it UPPER CASE, and chomp() the trailing newline off of it.
+    ## Remove the .upper method if that's not what you want
+    api.update_status(prefix + str.upper(words[index].rstrip("\r\n")) + postfix)
+    print("\n" + prefix + str.upper(words[index].rstrip("\r\n")) + postfix) 
 
-        ## Increment the index value, and then write it out to disk so we keep state through restarts.
-        index = index + 1
-        indexFile = open(indexDOTtxt, 'w')
-        indexFile.write(str(index))
-        indexFile.close()
-        print("\nNext twot word will be " + str.upper(words[index]))
+    ## Increment the index value, and then write it out to disk so we keep state through restarts.
+    index = index + 1
+    indexFile = open(indexDOTtxt, 'w')
+    indexFile.write(str(index))
+    indexFile.close()
+    print("\nNext twot word will be " + str.upper(words[index]))
+    
+    ## You may find this countdown annoying.
+    ## If so, comment it out, and uncomment the last line instead.
+    for i in range(tweetFrequency, 0, -1):
+        time.sleep(1)
+        sys.stdout.write(str((i - 1))+' ')
+        sys.stdout.flush()
+    #time.sleep(tweetFrequency)
 
-        
-        
-        ## You may find this countdown annoying.
-        ## If so, comment it out, and uncomment the last line instead.
-        for i in range(tweetFrequency, 0, -1):
-            time.sleep(1)
-            sys.stdout.write(str((i - 1))+' ')
-            sys.stdout.flush()
-        #time.sleep(tweetFrequency)
