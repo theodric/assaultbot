@@ -79,8 +79,10 @@ wordFile = open(argFile, 'r')
 words = wordFile.readlines()
 wordFile.close()
 
-## Setting up the wordfilter. This is used to help us avoid auto-tweeting words that are not nice.
+## Set up Wordfilter. This is used to help us avoid auto-tweeting words that are not nice.
 wordfilter = Wordfilter()
+## I have a few extras that I specifically do not want my bot tweeting, so I add them to the filter here.
+wordfilter.add_words(["rape", "rapist", "sex", "molest", "drug"])
 
 ##############################################################################
 ## Here we go.
