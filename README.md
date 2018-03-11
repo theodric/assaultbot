@@ -18,3 +18,5 @@ To use the script, pass it an argument pointing to a text file containing one wo
 ```
 
 There are a couple other things you can configure, such as tweet frequency, and tweet prefix/postfix. Read the script comments for more info.
+
+There should be another version of this shortly that uses wordfilter by default, so I have already added it to the requirements.txt file. Whatever your personal opinons on MUH FREE SPEECH may be, Twitter has community guidlines, and if we want to play in their playground, we need to abide by them and ensure that our bots do not [inadvertently] use racist, sexist, ableist, or targeting language. Or you may find yourself banned. (At the moment, I'm doing that by carefully and liberally editing my dictionary source.)
