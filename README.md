@@ -2,8 +2,10 @@
 -----------ARCHIVED REPO-----------
 
 Given that Elon's changes to Twitter's free API call limits have dealt a death blow to novelty bots, I see no reason to keep this repo active.
-Maybe some day I'll decide to make this a Mastodon or Bluesky (lol) but, but I doubt it. I think I've outgrown this shit.
-It's been fun.
+
+Maybe some day I'll decide to make this a Mastodon or Bluesky (lol) bot, but I doubt it. I think I've outgrown this shit.
+
+It's been fun. RIP @assaultwords.
 
 --------------------------------------------------
 A Twitter bot that tweets words from a dictionary, with optional prefix and postfix pre/ap-pended.
